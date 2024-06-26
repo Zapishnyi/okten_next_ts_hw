@@ -5,7 +5,7 @@ interface IProps {
   post: IPost;
 }
 
-const Post: FC<IProps> = ({ post: { userId, id, title, body } }) => {
+const Post: FC<IProps> = ({ post: { userId, id, title } }) => {
   return (
     <div>
       <Link href={`/posts/${id}`}>
