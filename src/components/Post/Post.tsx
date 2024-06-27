@@ -8,6 +8,7 @@ interface IProps {
 const Post: FC<IProps> = ({ post: { userId, id, title } }) => {
   return (
     <div>
+      frferf
       <Link href={`/posts/${id}`}>
         Post ID:{id}, User ID: {userId}, Post title: {title}
       </Link>
